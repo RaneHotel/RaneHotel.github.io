@@ -1,0 +1,152 @@
+/*  Kodlayan&Tasarlayan = RetroLun(Martoon)   */
+
+@font-face{
+	font-family:dax;
+	src: url(../font/DaxCondensed.ttf);
+	}
+	
+*{
+	margin:0px;
+	padding:0px;
+}
+
+div[class*="col"]{
+	border:2px solid transparent;
+	height:400px;
+
+}
+
+::selection {
+background-color: #484848;
+color: white;
+}
+
+.container{
+	margin:13% auto;
+}
+
+body{
+	animation:animasyon 3s infinite;
+	font-weight:bold;
+}
+
+@keyframes animasyon{
+	0%{
+		background-color:#7CB1C1
+	}
+
+	30%{
+		background-color:#7C94C1;
+	}
+
+	60%{
+		background-color:#8E7CC1;
+	}
+
+	90%{
+		background-color:#C17CBA;
+	}
+
+	100%{
+		background-color:#C17C7C;
+	}
+}
+
+.kutu1{
+	background-color:white;
+	height:170px;
+	width:600px;
+	border-radius:10px;
+	box-shadow:0px 0px 4px black;
+	position:absolute;
+	border-bottom:4px solid #ccc;
+	top:470px;
+	left:250px;
+}
+
+.kutu2{
+	background-color:white;
+	border-bottom:4px solid #ccc;
+	height:80px;
+	width:600px;
+	position:absolute;
+	top:650px;
+	left:250px;
+	border-radius:10px;
+	box-shadow:0px 0px 4px black;
+}
+
+.room{
+	position:absolute;
+	top:35%;
+	left:10%;
+}
+
+#baslik{
+	color:white;
+	font-family:Amarillo?ss;
+	font-size:35px;
+	position:absolute;
+	left:320px;
+	top:415px;
+}
+
+.buton1{
+	background-color:#36688C;
+	padding:10px 50px;
+	display:inline;
+	position:absolute;
+	left:370px;
+	top:15px;
+	border-bottom:6px solid #1E3B50;
+	border-radius:11px;
+	color:white;
+	font-family:dax;
+	transition:all;
+}
+
+.buton2{
+	background-color:#6C3D92;
+	padding:10px 60px;
+	display:inline;
+	position:absolute;
+	left:165px;
+	top:15px;
+	border-bottom:6px solid #3A1E51;
+	border-radius:11px;
+	color:white;
+	font-family:dax;
+	transition:all;
+}
+
+.kutu1yazi{
+	position:absolute;
+	font-size:13px;
+	left:180px;
+	bottom:50px;
+	font-family:dax;
+
+}
+
+.buton1:hover{
+	text-decoration:none;
+	color:white;
+	box-shadow:0px 0px 4px black;
+
+}
+
+.buton1:active{
+	border-bottom:none;
+	
+}
+
+.buton2:hover{
+	text-decoration:none;
+	color:white;
+	box-shadow:0px 0px 4px black;
+}
+
+.buton2:active{
+	border-bottom:none;
+	
+}
